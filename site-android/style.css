@@ -166,7 +166,7 @@ footer h4:hover{
     text-decoration: underline;
 }
 
-footer img{
+li img{
     width: 23px;
     justify-content: flex-start;
     display: flex;
