@@ -168,12 +168,11 @@ footer h4:hover{
 
 li img{
     width: 23px;
-    justify-content: flex-start;
-    display: flex;
+    height: 23px;
 }
 
 footer p{
-    margin-left: 100px;
+    text-indent: 100px;
 }
 
 footer a{
