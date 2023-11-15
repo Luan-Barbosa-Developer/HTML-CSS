@@ -6,18 +6,28 @@ body {
   
   header {
     display: flex;
-    background-image: linear-gradient(to right, #2E0259, #B90FDD, #F50572, #B90FDD) ;
+    background-image: linear-gradient(to right, #2E0259, #B90FDD, #F50572, #B90FDD);
     padding: 20px;
     color: #fff;
     transition: 3s;
   }
+
+  header h1{
+    text-align: center;
+  }
   
 nav{
   transition: .10s;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: linear-gradient(to right, #2E0259, #B90FDD, #F50572, #B90FDD);
+  padding-bottom: 8px;
 }
 
   .logo {
-    font-size: 24px;
+    height: 90px;
+    width: 90px;
   }
   
   .navigation {
@@ -49,9 +59,10 @@ nav{
   section h2 {
     color: #333;
   }
-  
+
   .filter {
     margin-bottom: 20px;
+
   }
   
   .product-list {
